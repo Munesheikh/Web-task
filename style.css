@@ -312,24 +312,40 @@ box-shadow:0 10px 20px rgba(0,0,0,.08);
 .packages{
 padding:100px 8%;
 display:flex;
-justify-content:space-between;
-gap:30px;
+justify-content:center;
 align-items:center;
-}
-
-.package-left{
-width:25%;
+gap:10px;
 }
 
 .package-left h2{
-font-size:45px;
+font-size:40px;
 margin-bottom:20px;
+color:white;
 }
 
 .package-left p{
+color:white;
 line-height:28px;
-color:gray;
-margin-bottom:30px;
+}
+
+.browse-btn{
+background:#1d2b53;
+color:white;
+border:none;
+padding:15px 30px;
+border-radius:40px;
+cursor:pointer;
+}
+
+.package-left{
+width:350px;
+height:500px;
+background:#bcc5d3;
+border-radius:40px;
+padding:50px 40px;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
 }
 
 .browse-btn{
@@ -342,7 +358,7 @@ cursor:pointer;
 }
 
 .package-card{
-width:350px;
+width:300px;
 height:500px;
 border-radius:40px;
 position:relative;
