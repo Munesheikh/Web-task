@@ -403,7 +403,7 @@ font-size:15px;
 
 .booking{
 padding:100px 8%;
-text-align:center;
+text-align:left;
 }
 
 .booking h2{
@@ -413,7 +413,7 @@ margin-bottom:60px;
 
 .steps{
 display:flex;
-justify-content:center;
+justify-content:flex-start;
 gap:30px;
 }
 
@@ -424,6 +424,7 @@ padding:50px 30px;
 border-radius:35px;
 box-shadow:0 10px 30px rgba(0,0,0,.08);
 transition:.4s;
+text-align:left;
 }
 
 .step:hover{
