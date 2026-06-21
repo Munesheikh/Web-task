@@ -313,53 +313,46 @@ box-shadow:0 10px 20px rgba(0,0,0,.08);
 padding:100px 8%;
 display:flex;
 justify-content:center;
-align-items:center;
-gap:10px;
+align-items:flex-start;
+gap:8px;
+}
+
+.package-left{
+width:420px;
+height:580px;
+background:#bcc5d3;
+border-radius:40px;
+padding:55px 35px;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
 }
 
 .package-left h2{
-font-size:40px;
-margin-bottom:20px;
+font-size:42px;
+line-height:60px;
 color:white;
 }
 
 .package-left p{
 color:white;
-line-height:28px;
+line-height:30px;
+font-size:16px;
 }
 
 .browse-btn{
 background:#1d2b53;
 color:white;
 border:none;
-padding:15px 30px;
+padding:16px 30px;
 border-radius:40px;
 cursor:pointer;
-}
-
-.package-left{
-width:350px;
-height:500px;
-background:#bcc5d3;
-border-radius:40px;
-padding:50px 40px;
-display:flex;
-flex-direction:column;
-justify-content:space-between;
-}
-
-.browse-btn{
-background:#f39c34;
-color:white;
-border:none;
-padding:15px 30px;
-border-radius:40px;
-cursor:pointer;
+width:200px;
 }
 
 .package-card{
-width:300px;
-height:500px;
+width:290px;
+height:580px;
 border-radius:40px;
 position:relative;
 overflow:hidden;
